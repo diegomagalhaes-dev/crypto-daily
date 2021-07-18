@@ -1,8 +1,30 @@
 .coin-container {
-  display: flex;
-  justify-content: center;
+  flex: 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  background-color: #323347;
+  border-radius: 15px;
+  position: relative;
 }
 
+.content {
+  position: relative;
+  padding: 20px 0;
+}
+.carousel .slide .legend {
+  bottom: 0;
+}
+.carolsel {
+  width: 100%;
+}
+.title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 .coin-row {
   display: flex;
   flex-direction: row;
@@ -10,10 +32,38 @@
   align-items: center;
   height: 80px;
   border: 1px solid #e6e7e8;
-  max-width: 980px;
   width: 100%;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.info {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 10%;
+}
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  margin-top: 20px
+}
+.description {
+  position: relative;
+  text-transform: lowercase;
+  font-size: 16px;
+  letter-spacing: 10%;
+  font-weight: 500;
+  opacity: 60%;
+}
+.control-dots {
+  display: none;
+}
 .coin {
   display: flex;
   align-items: center;
@@ -21,15 +71,16 @@
   min-width: 300px;
 }
 
-.coin img {
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
+.title img {
+  height: 20px;
+  width: 20px;
 }
 
-.coin h1 {
-  font-size: 16px;
-  width: 150px;
+.title h1 {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .coin-symbol {
@@ -65,4 +116,18 @@
 
 .green {
   color: #11d811;
+}
+
+@media screen and (max-width: 960px) {
+  .coin-container {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coin-container {
+    flex: 100%;
+    max-width: 100%;
+  }
 }

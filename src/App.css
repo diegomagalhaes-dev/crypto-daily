@@ -5,16 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: #1b1c31;
   color: #f1f2f3;
 }
 
+body {
+  background-color: #1b1c31;
+}
 .coin-app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 64px;
-  color: #f1f2f3;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .coin-search {
@@ -47,4 +46,22 @@
 
 .coin-input::placeholder {
   color: #f1f2f3;
+}
+
+.card-coin {
+  padding: 40px 0;
+  color: #434343;
+  text-align: center;
+}
+
+.inner {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }

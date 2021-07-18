@@ -23,26 +23,30 @@ function App() {
   const filteredCoins = coins.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase()))
 
   return (
-    <div className="coin-app">
+    <div className="card-coin">
       <div className="coin-search">
         <h1 className="coin-text">Search a currency</h1>
         <form>
           <input type="text" placeholder='Search' className="coin-input" onChange={handleChange} />
         </form>
       </div>
-      {filteredCoins.map(({ id, name, image, symbol, current_price, market_cap, total_volume, price_change_percentage_24h }) => {
-        return (
-          <Coin
-            key={id}
-            image={image}
-            name={name}
-            symbol={symbol}
-            price={current_price}
-            marketcap={market_cap}
-            priceChange={price_change_percentage_24h}
-            volume={total_volume} />
-        )
-      })}
+      <div className="inner">
+        <div className="row">
+          {filteredCoins.map(({ id, name, image, symbol, current_price, market_cap, total_volume, price_change_percentage_24h }) => {
+            return (
+              <Coin
+                key={id}
+                image={image}
+                name={name}
+                symbol={symbol}
+                price={current_price}
+                marketcap={market_cap}
+                priceChange={price_change_percentage_24h}
+                volume={total_volume} />
+            )
+          })}
+        </div>
+      </div>
     </div>
   );
 }
