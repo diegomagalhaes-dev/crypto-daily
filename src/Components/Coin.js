@@ -2,9 +2,8 @@ import React from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import '../Coin.css'
-import Chart7Days from './Chart7Days';
 
-const Coin = ({ image, name, id, symbol, price, volume, priceChange, marketcap }) => {
+const Coin = ({ image, name, price, volume, priceChange, marketcap }) => {
     return (
         <div className='coin-container'>
             <section className='title'>
