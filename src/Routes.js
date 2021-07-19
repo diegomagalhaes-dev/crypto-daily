@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './Components/Home'
 import Deshboard from './Deshboard'
 
-export default () => {
+const Routes = () => {
     return (
         <Switch>
             <Route exact path='/'>
@@ -15,3 +15,4 @@ export default () => {
         </Switch>
     )
 }
+export default Routes;
