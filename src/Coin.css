@@ -51,7 +51,7 @@
   letter-spacing: 10%;
 }
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
-  margin-top: 20px
+  margin-top: 20px;
 }
 .description {
   position: relative;
@@ -118,16 +118,129 @@
   color: #11d811;
 }
 
+
+.home {
+  max-width: 980px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.home h1 {
+  max-width: 40vw;
+  font-size: 96px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.home img {
+  width: 50%;
+}
+
+.callbutton {
+  border: none;
+  max-width: 240px;
+  width: 100%;
+  background: #40469b;
+  color: #f1f2f3;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.callbutton span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.callbutton img {
+  max-width: 20px;
+  margin-left: 10px;
+}
+
+.callbutton:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 960px) {
+  .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto
+  }
+  .call{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .callbutton{
+    padding: 10px 20px;
+  }
+  .home img{
+    width: 60%;
+  }
+  .home h1{
+    padding-top: 40px;
+    flex-direction: row;
+    max-width: 90vw;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .home h1{
+    padding-top: 40px;
+    font-size: 64px;
+    max-width: 90vw;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 910px) {
   .coin-container {
     flex: 100%;
     max-width: 80%;
   }
 }
-
 @media screen and (max-width: 600px) {
   .coin-container {
     flex: 100%;
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .home img{
+    max-width: 90vw;
+    width: 100%;
+  }
+  .home h1{
+    padding-top: 40px;
+    font-size: 48px;
+    max-width: 90vw;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 352px) { 
+  .call{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+ }
