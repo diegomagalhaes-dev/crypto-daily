@@ -4,6 +4,6 @@ command = "npm run build"
 publish = "./build/"
 
 [[redirects]]
-from = "/deshboard"
-to = "/index/"
-force = true
+from = "/*"
+to = "/index.html"
+status = 200
