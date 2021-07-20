@@ -5,6 +5,7 @@
   background-color: #323347;
   border-radius: 15px;
   position: relative;
+  color: #f1f2f3;
 }
 
 .content {
@@ -13,6 +14,7 @@
 }
 .carousel .slide .legend {
   bottom: 0;
+  color: #f1f2f3;
 }
 .carolsel {
   width: 100%;
@@ -24,6 +26,7 @@
   justify-content: center;
   margin: 0 auto;
   margin-top: 10px;
+  color: #f1f2f3;
 }
 .coin-row {
   display: flex;
@@ -49,6 +52,7 @@
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 10%;
+  color: #f1f2f3;
 }
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
   margin-top: 20px;
@@ -60,6 +64,7 @@
   letter-spacing: 10%;
   font-weight: 500;
   opacity: 0.8;
+  color: #f1f2f3;
 }
 .control-dots {
   display: none;
@@ -80,6 +85,7 @@
   margin-left: 5px;
   font-size: 18px;
   font-weight: 700;
+  color: #f1f2f3;
   text-transform: uppercase;
 }
 
@@ -125,33 +131,34 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-around;
   margin: 0 auto;
 }
 .home h1 {
   max-width: 40vw;
-  font-size: 96px;
+  width: 100%;
+  font-size: 64px;
+  color: #f1f2f3;
   font-weight: 800;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .home img {
-  width: 50%;
+  width: 40%;
 }
 
 .callbutton {
   border: none;
-  max-width: 240px;
-  width: 100%;
   background: #40469b;
   color: #f1f2f3;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 700;
-  border-radius: 15px;
-  padding: 10px 0;
+  border-radius: 10px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background .3s linear;
 }
 .call {
   text-decoration: none;
@@ -163,15 +170,20 @@ a {
 .callbutton span {
   display: flex;
   align-items: center;
+  color: #f1f2f3;
   justify-content: center;
 }
 .callbutton img {
   max-width: 20px;
+  width: 100%;
   margin-left: 10px;
 }
 
 .callbutton:hover {
   cursor: pointer;
+  background: none;
+  border: 2px solid #40469b;
+  padding: 8px 18px;
 }
 
 @media screen and (max-width: 960px) {
@@ -191,7 +203,7 @@ a {
     padding: 10px 20px;
   }
   .home img{
-    width: 60%;
+    width: 40%;
   }
   .home h1{
     padding-top: 40px;
@@ -224,7 +236,7 @@ a {
 
 @media screen and (max-width: 470px) {
   .home img{
-    max-width: 90vw;
+    max-width: 70vw;
     width: 100%;
   }
   .home h1{
