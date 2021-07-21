@@ -9,8 +9,10 @@
   
 </h4>
 <p align="center">
-  <a href="#sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license">Licença</a>
+  <a href="#sobre"> <img src="./src/Assets/project.png"></a>
+  <a href="#layout"> <img src="./src/Assets/layout.png"></a>
+  <a href="#envir"> <img src="./src/Assets/enviroment.png"></a>
+  <a href="#license"> <img src="./src/Assets/license.png"></a>
 </p>
 <br>
 
@@ -20,9 +22,8 @@
   </a>
   <br><br>
     <img src="./src/Assets/imac.png">
-<br> <br>
-</div>
-<br><br>
+<hr>
+</div><br>
 <h2 id="sobre">🔎 Sobre o Projeto</h2>
 Aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
 A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento e pela facilidade de criar aplicações performáticas.
@@ -33,6 +34,10 @@ A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento 
 <h2>📍Bibliotecas adicionais</h2>
 ➙ Axios <br>
 ➙ React-spinkit
+<h2>✨ Layout</h2>
+<div align="center">
+<img src="./src/Assets/layout.gif">
+</div>
 <h2>💡Rode na sua máquina</h2>
 
 ```
@@ -52,4 +57,4 @@ $ yarn start
 
 Esse projeto está sob  a Licença MIT. Acesse [LICENSE](https://github.com/diegomagalhaes-dev/crypto-daily/blob/master/LICENSE) para mais informações.
 <hr>
-Feito com ♥ por Diêgo Magalhães :wave: <a href="https://www.linkedin.com/in/magalhaesdiego/">Fale comigo!</a>.
+Feito com ♥ por Diêgo Magalhães :wave: <br><a href="https://www.linkedin.com/in/magalhaesdiego/">Fale comigo! 😄</a>
