@@ -11,7 +11,6 @@
 <p align="center">
   <a href="#sobre"> <img src="./src/Assets/project.png"></a>
   <a href="#layout"> <img src="./src/Assets/layout.png"></a>
-  <a href="#envir"> <img src="./src/Assets/enviroment.png"></a>
   <a href="#license"> <img src="./src/Assets/license.png"></a>
 </p>
 <br>
@@ -25,16 +24,17 @@
 <hr>
 </div><br>
 <h2 id="sobre">🔎 Sobre o Projeto</h2>
-Aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
-A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento e pela facilidade de criar aplicações performáticas.
+<b>Crypto Daily</b>é uma aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
+A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento e pela facilidade de criar aplicações performáticas. 
 
 <h2 id="tecnologias">⚙️ Tecnologias utilizadas</h2>
 ➙ Figma <br>
 ➙ React.js / React Hooks
 <h2>📍Bibliotecas adicionais</h2>
 ➙ Axios <br>
+➙ React Router <br>
 ➙ React-spinkit
-<h2>✨ Layout</h2>
+<h2 id="layout">✨ Layout</h2>
 <div align="center">
 <img src="./src/Assets/layout.gif">
 </div>
@@ -50,7 +50,7 @@ $ yarn
 # Inicie a aplicação
 $ yarn start
 
-# (necessário ter o Node e o Git instalados na sua máquina)
+# (necessário ter o Node, Yarn e o Git instalados na sua máquina)
 ```
 
 <h2 id="license"> :memo: Licença</h2>
