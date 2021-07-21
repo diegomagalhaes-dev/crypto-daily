@@ -24,7 +24,7 @@
 <hr>
 </div><br>
 <h2 id="sobre">🔎 Sobre o Projeto</h2>
-<b>Crypto Daily</b>é uma aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
+<b>Crypto Daily</b> é uma aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
 A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento e pela facilidade de criar aplicações performáticas. 
 
 <h2 id="tecnologias">⚙️ Tecnologias utilizadas</h2>
